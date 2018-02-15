@@ -1,5 +1,5 @@
 FROM php:apache
-MAINTAINER Johan Smits
+LABEL maintainer="aaron@spettl.de"
 
 # Enable Apache rewrite module
 RUN a2enmod rewrite
